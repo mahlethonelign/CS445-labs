@@ -1,7 +1,7 @@
 class University {
-    name: String;
-    dept: String;
-    constructor(name: String, dept: String) {
+    name: string;
+    dept: string;
+    constructor(name: string, dept: string) {
         this.name = name;
         this.dept = dept;
     }
