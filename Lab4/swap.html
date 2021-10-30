@@ -1,0 +1,37 @@
+<head>
+    <title>Swap</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <form>
+                    <img src="minions1.jpeg" width="400px" height="300px" id="img1">
+                    <img src="minions2.jpeg" width="400px" height="300px" id="img2"><br>
+                    <input type="button" id="swap" value="Swap"
+                        style="width: 100px; margin-left: 30%; background-color: rgba(0, 153, 255, 0.433); font-size: 20px;">
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <script>
+
+        document.getElementById("swap").onclick = function () {
+            let src1 = document.getElementById("img1").src;
+            let src2 = document.getElementById("img2").src;
+            document.getElementById("img2").src = src1;
+            document.getElementById("img1").src = src2;
+
+        }
+    </script>
+</body>
+
+</html>
