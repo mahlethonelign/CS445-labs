@@ -7,7 +7,7 @@ Array.prototype.removeDuplicatesAsync = function () {
                 newArr.push(num);
             }
         }
-        resolve(newArr)
+        resolve(newArr);
     }).then(console.log);
 }
 console.log(`start`);
