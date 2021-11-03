@@ -7,7 +7,6 @@ Array.prototype.removeDuplicates = function () {
         }
     }
     return new Promise(function (resolve, reject) {
-
         resolve(newArr)
     });
 }
