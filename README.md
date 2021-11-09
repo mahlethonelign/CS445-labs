@@ -5,4 +5,4 @@
 ###  [Lab4](https://github.com/amayah2021/CS445-labs/tree/main/Lab4)
 ###  [Lab5](https://github.com/amayah2021/CS445-labs/tree/main/Lab5)
 ###  [Lab6](https://github.com/amayah2021/CS445-labs/tree/main/Lab6)
-###  [Lab6](https://github.com/amayah2021/CS445-labs/tree/main/Lab7)
+###  [Lab7](https://github.com/amayah2021/CS445-labs/tree/main/Lab7)
