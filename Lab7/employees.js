@@ -1,6 +1,3 @@
-
-
-
 window.onload = function () {
     loadEmployees();
     document.getElementById("refresh").onclick = loadEmployees;
