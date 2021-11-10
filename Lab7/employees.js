@@ -6,8 +6,7 @@ async function loadEmployees() {
     document.getElementById("list").innerHTML = "";
     let result = await fetch("https://randomuser.me/api/?results=5");
     let employees = (await result.json()).results;
-    for (let i = 0; i < employees.length; i++) {
-        let emp = employees[i];
+    for (emp of employees) {
         let info = document.createElement('div');
         info.className = "row";
         info.innerHTML = `<div class="col-4">
