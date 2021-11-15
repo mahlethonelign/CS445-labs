@@ -7,3 +7,4 @@
 ###  [Lab6](https://github.com/amayah2021/CS445-labs/tree/main/Lab6)
 ###  [Lab7](https://github.com/amayah2021/CS445-labs/tree/main/Lab7)
 ###  [Lab8](https://github.com/amayah2021/CS445-labs/tree/main/Lab8)
+###  [Lab9](https://github.com/amayah2021/CS445-labs/tree/main/Lab9)
