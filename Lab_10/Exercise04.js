@@ -10,6 +10,7 @@ let fibonacci1 = (function () {
             } else {
                 value = fib(n - 1) + fib(n - 2);
             }
+            memo.push(value);
         }
         return value;
 
